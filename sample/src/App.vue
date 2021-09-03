@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <h1>HelloWorld</h1>
-    <Ciao/>
-  
+    
+    
+    <hello/>
+    <jumbo/>
   </div>
   
 </template>
@@ -12,16 +12,19 @@
 
 
 
-import Ciao from './components/hello.vue'
-
+import hello from './components/hello.vue'
+import jumbo from './components/jumbo.vue'
 export default {
   name: 'App',
   components: {
-    Ciao,
+    hello,
+    jumbo
   }
 }
 </script>
 
 <style lang="scss">
-
+#app{
+  text-align: center;
+}
 </style>

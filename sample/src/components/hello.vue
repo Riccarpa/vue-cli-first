@@ -1,10 +1,11 @@
 <template>
-  <h1>ciao</h1>
+  <h1>Hello world</h1>
 </template>
 
 <script>
 export default {
-    Ciao:'miao'
+    name:'hello',
+    
 
 }
 </script>
